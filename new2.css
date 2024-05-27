@@ -1,0 +1,70 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#main{
+    width: 100%;
+    position: relative;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(39, 170, 213);
+    position: relative;
+    /* background: url("https://png.pngtree.com/background/20230317/original/pngtree-summer-beach-cartoon-background-picture-image_2149311.jpg"); */
+    background: url("https://img.freepik.com/premium-photo/little-girl-sitting-rock-rain-she-is-wearing-yellow-raincoat-red-boots-holding-red-umbrella_14117-419180.jpg?w=1380 ");
+    background-size: cover;
+}
+
+.swiper {
+    width: 60%;
+    height: 45%;
+    position: relative;
+    top: 50%;
+    left: 18%;
+}
+.swiper-wrapper{
+    position: relative;
+
+  }
+
+  .swiper-slide {
+    border: solid 5px #03364F;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img{
+    border-radius: 10%;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(11, 71, 91);
+}
